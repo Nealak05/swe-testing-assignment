@@ -67,7 +67,12 @@ Latest run command:
 python -m pytest -q
 ```
 
-Latest result: `10 passed`
+Latest run output:
+
+```text
+..........                                                               [100%]
+10 passed in 0.02s
+```
 
 | Test Name | Type | Status |
 |---|---|---|
@@ -81,3 +86,4 @@ Latest result: `10 passed`
 | `test_multiply_large_numbers` | Unit | Pass |
 | `test_full_user_flow_addition` | Integration | Pass |
 | `test_clear_after_calculation_resets_display` | Integration | Pass |
+
